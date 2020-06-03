@@ -1,0 +1,39 @@
+.sub {
+    color: grey;
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.card-text{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body-sub{
+    text-align: center;
+    color: grey;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.svg{
+    margin-top: 10px;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+.btn-success{
+    margin-top: 10px;
+    background-color: #63FFBF;
+    color: rgb(46, 46, 46);
+    border-radius: 20px;
+    font-size: 2rem;
+}
+a:hover{
+    text-decoration: unset;
+}

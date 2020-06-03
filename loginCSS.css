@@ -1,0 +1,53 @@
+.sub{
+    color: #A6A6A6;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.titulo{
+    color: black;
+    font-size: 20rem;
+}
+
+.form{
+    margin-top: 5rem;
+    width: 30rem;
+    align-content: center;
+}
+
+.btn-success{
+    background-color: #63FFBF;
+    color: rgb(46, 46, 46);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text{
+    text-align: right;
+    font-weight: bold;
+    font-size: 5rem;
+}   
+
+.card-body-sub{
+    text-align: right;
+    font-weight: lighter;
+    color: grey;
+}
+
+.card{
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+a:link{
+  color: black;  
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: unset;
+}
