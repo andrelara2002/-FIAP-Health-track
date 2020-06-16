@@ -1,4 +1,2 @@
 Agora enviando de volta para a maquina
 Sucesso!
-
-Adicionando pelo visual studio

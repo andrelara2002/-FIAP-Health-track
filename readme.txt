@@ -1,0 +1,1 @@
+Adicionando pela primeira vez umsando uma ide, estou treinando como adicionar dados de forma rápida e mais simples, enquanto isso estou puxando e mandando dados pela nuvem
