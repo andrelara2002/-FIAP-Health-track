@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="loginCSS.css">
         <meta name="viewport" content="width=device_width, initial_scale=1">
     <body>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
         <div class="container">
             <h5 class="sub">Olá seja bem vindo ao seu resumo</h5>
             <div class="shadow-sm card w-100">
                 <div class="card-body">
-                  <h1 class="card-text">3000</h1>                                                       
+                  <h1 class="card-text" id="valorPassos"></h1>                                                       
                   <a href="userExercicio.html"><h1 class="card-body-sub">Passos</h1></a>
                 </div>
                 <svg width="1000" height="1000" viewBox="0 0 286 229" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,18 +154,20 @@
             <div class="shadow-sm card w-100" style="margin-top: 10px;">
                 <div class="card-body">
                   <a href="userAltura.html"><h1 class="card-text">Altura</h1></a>                                                       
-                  <h1 class="card-body-sub">1,82m</h1>
+                  <h1 class="card-body-sub" id="valorAltura"></h1>
                 </div>
             </div>
             <div class="shadow-sm card w-100" style="margin-top: 10px;">
                 <div class="card-body">
                   <a href="userPeso.html"><h1 class="card-text">Peso</h1></a>                                                       
-                  <h1 class="card-body-sub">67Kg</h1>
+                  <h1 class="card-body-sub" id="valorPeso"></h1>
                 </div>
             </div>
             <div class="shadow-sm card w-100" style="margin-top: 10px; font-size: 3rem;">
                 <a href="userEsportes.html"><button type="button" class="btn btn-success btn-block">Esportes</button></a>
             </div>
         </div>
+        
+        <script src="../src/resumo.js"></script>
     </body>
 </html>
