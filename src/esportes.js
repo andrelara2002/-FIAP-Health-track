@@ -17,10 +17,17 @@ function render() {
 
         const finalText = document.createElement('h1')
         finalText.appendChild(textElement)
-
+    
         lastDiv.appendChild(finalText)
         nameElement.appendChild(lastDiv);
+        nameElement.addEventListener('click', goToExercices)
+        
 
         esporteElement.appendChild(nameElement)
     }
+}
+
+function goToExercices(){
+    window.location.href ='userExercicio.html'
+    console.log('Eu funcionei')
 }
