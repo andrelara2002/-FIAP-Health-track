@@ -5,6 +5,14 @@ var values = JSON.parse(localStorage.getItem('lista_peso')) || []
 var dateValues = JSON.parse(localStorage.getItem('lista_data'))
 
 function render() {
+
+    if (values === [] || values === null){
+        values.push('0')
+    }
+    else if (dateValues === [] || dateValues === null){
+        dateValues.push('0')
+    }
+
     peso.innerHTML = `${values}Kg`
     data.innerHTML = dateValues
 }
