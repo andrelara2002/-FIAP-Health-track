@@ -2,7 +2,7 @@ const peso = document.getElementById('valorPeso')
 const data = document.getElementById('valorData')
 
 var values = JSON.parse(localStorage.getItem('lista_peso')) || []
-var dateValues = JSON.parse(localStorage.getItem('lista_data'))
+var dateValues = JSON.parse(localStorage.getItem('lista_data')) || []
 
 function render() {
 
@@ -32,7 +32,7 @@ function receberPeso() {
 }
 
 function receberData() {
-    var dateValue = prompt('Por favor, diga o dia que está registrando seu peso', 'ex.:10/10/2010')
+    var dateValue = prompt('Por favor, diga o dia que está registrando seu peso', '')
 
     if (dateValue === '') {
         alert('Cancelado')

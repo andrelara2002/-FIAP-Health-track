@@ -3,10 +3,11 @@ const passosElement = document.getElementById('valorPassos');
 const pesoElement = document.getElementById('valorPeso')
 
 var pesoValue = JSON.parse(localStorage.getItem('lista_peso')) || []
+var alturaValue = JSON.parse(localStorage.getItem('lista_altura')) || []
 
 let userStats = {
     passos: '6000',
-    altura: '1.8',
+    altura: alturaValue,
     peso: pesoValue
 }
 
