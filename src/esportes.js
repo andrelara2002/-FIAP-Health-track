@@ -29,5 +29,4 @@ function render() {
 
 function goToExercices(){
     window.location.href ='userExercicio.html'
-    console.log('Eu funcionei')
 }
