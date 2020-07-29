@@ -28,5 +28,5 @@ function render() {
 }
 
 function goToExercices(){
-    window.location.href ='userExercicio.html'
+    window.location.href ='userInfo.html'
 }

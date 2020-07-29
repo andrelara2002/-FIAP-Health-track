@@ -20,7 +20,7 @@ function render() {
 function receberPeso() {
 
     var value = prompt('Por favor, diga seu peso', '')
-    if (value === '') {
+    if (value === '' || value === null || value === "null") {
         alert('Nada mudou')
     }
     else {
@@ -34,7 +34,7 @@ function receberPeso() {
 function receberData() {
     var dateValue = prompt('Por favor, diga o dia que está registrando seu peso', '')
 
-    if (dateValue === '') {
+    if (dateValue === '' || dateValue === null || dateValue === 'null') {
         alert('Cancelado')
     }
     else {

@@ -4,7 +4,7 @@ var values = JSON.parse(localStorage.getItem('lista_altura')) || []
 
 function receberAltura() {
     const newValue = prompt('Por favor, insira sua altura')
-    if (newValue === '') {
+    if (newValue === '' || newValue === null || newValue === 'null') {
         alert('Operação cancelada')
     }
     else {
