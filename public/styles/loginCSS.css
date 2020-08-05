@@ -5,6 +5,11 @@
     margin-top: 50px;
 }
 
+.sub h1{
+    color: black;
+    font-weight: bold;
+}
+
 .titulo{
     color: black;
     font-size: 20rem;
@@ -50,4 +55,53 @@ a:visited{
 }
 a:hover{
     text-decoration: unset;
+}
+
+#main-container{
+    display: grid;
+    justify-content: center;
+}
+
+#main-container button{
+    background: #2dd891;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 15px;
+
+    border: #F2F2F2;
+    border-radius: 10px;
+
+    color: F2F2F2;
+    font-size: 1.4rem;
+}
+
+#main-container input{
+    border-radius: 10px;
+    font-size: 1.4rem;
+
+    color: #A6A6A6;
+}
+#main-container button:hover{
+    opacity: 0.6;
+    transition: 0.8s;
+}
+#arrow-front{
+    height: 2rem;
+    margin-left: 10px;
+}
+
+#card-passos{
+    background-image: url(../../images/userResumo/passos-img.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 600px;
+}
+
+#img-logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 30rem;
 }

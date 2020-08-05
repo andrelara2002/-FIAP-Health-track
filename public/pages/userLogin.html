@@ -15,13 +15,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <div class="container">
-        <div class="sub">
-            <br>
-            <h5>Vamos Começar</h5>
+    <div class="container" id="main-container">
+        <div id='img-logo'>
+            <img src="/images/Health-Track-Logo.svg" alt="Health Track">
         </div>
-        <div class="titulo">
-            <h1>Faça seu Login</h1>
+        <div class="sub">
+            <h5>Vamos Começar</h5>
+            <h1>Faça seu login</h1>
         </div>
         <svg width="518" height="284" viewBox="0 0 259 142" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -147,7 +147,6 @@
                 d="M46.5241 105.472C46.5241 99.8364 43.0514 95.268 38.7676 95.268C36.0752 95.268 33.7038 97.0734 32.3131 99.8135C31.8355 99.6515 31.3348 99.5688 30.8308 99.5686C29.5272 99.5907 28.2827 100.119 27.3577 101.042C26.104 97.6251 23.4456 95.268 20.3686 95.268C17.4916 95.268 14.9824 97.3301 13.6434 100.391C12.8579 99.8609 11.9347 99.575 10.9887 99.5686C7.70119 99.5686 5.0361 103.075 5.0361 107.399C5.02647 108.858 5.34717 110.3 5.97392 111.616H44.9598C46.0052 109.74 46.5444 107.622 46.5241 105.472Z"
                 fill="#63FFBF" />
         </svg>
-
         <div class="container">
             <form class="form">
                 <div class="form-group">
@@ -157,7 +156,7 @@
                     <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
                 </div>
             </form>
-            <button id="btnEnter">Entrar</button>
+            <button id="btnEnter">Entrar<img id='arrow-front' src="../../images/enter-arrow.png" alt=""></button>
         </div>
     </div>
     <script src="../../src/login.js"></script>
