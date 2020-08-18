@@ -1,0 +1,56 @@
+.header{
+    text-align: center;
+    padding: 2rem 4rem;
+}
+.header img{
+    width: 10rem;
+}
+
+.card{
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+
+    border: .2rem solid var(--light-color);
+    border-radius: 1rem;
+
+    box-shadow: 5px 10px var(--background-color);
+}
+.card img{
+    width: 100%;
+}
+.card h1{
+    text-align: end;
+    font: 700 4rem Alata;
+    font-size: 4rem;
+}
+
+.card h2{
+    color: var(--subtitle-color);
+    font: 300 2rem Alata;
+    text-align: end;
+}
+
+.card button{
+    border: none;
+    background: none;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#card-button{
+    background: var(--accent-color);
+    font: 700 4rem Alata;
+}
+
+#card-button :hover{
+
+    opacity: .8;
+    transition: 200ms;
+}
+
+@media (min-width: 700px){
+    .card img{
+        max-height: 500px;
+    }
+}

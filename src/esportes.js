@@ -1,3 +1,4 @@
+const backArrow = document.getElementById('back-arrow')
 const esportes = ['Natação', 'Ciclismo', 'Caminhada', 'Artes Marciais', 'Atletismo', 'Outros']
 const esporteElement = document.getElementById('divEsportes');
 
@@ -29,4 +30,7 @@ function render() {
 
 function goToExercices(){
     window.location.href ='userInfo.html'
+}
+function goToMainPage(){
+    window.location.href = 'userResumo.html'
 }

@@ -13,6 +13,8 @@ let userStats = {
 
 function render(){
 
+    console.log(userStats.passos)
+
     alturaElement.innerHTML = '';
     passosElement.innerHTML = '';
 
@@ -24,6 +26,16 @@ function render(){
 
     textPeso = document.createTextNode(`${userStats.peso} Kg`);
     pesoElement.appendChild(textPeso);
+}
+document.getElementById('card-button').onclick = () =>{
+    window.location.href = 'userEsportes.html'
+}
+
+goToPeso = () =>{
+    window.location.href = 'userPeso.html'
+}
+goToAltura = () =>{
+    window.location.href = 'userAltura.html'
 }
 
 render();

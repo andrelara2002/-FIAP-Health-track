@@ -6,7 +6,11 @@
     <meta name="author" content="RM85856-André">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/loginCSS.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="/public/styles/resumo.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Alata:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap">
+
     <meta name="viewport" content="width=device_width, initial_scale=1">
 
 <body>
@@ -15,38 +19,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
+    <div class="header">
+        <img src="/images/Health-Track-Logo.svg" alt="">
+    </div>
     <div class="container">
-        <h5 class="sub">Olá seja bem vindo ao seu resumo</h5>
-        <div class="shadow-sm card w-100" style='max-height: 200'>
-            <!--div class="card-body" id="card-passos"-->
-            <a href="userExercicio.html">
-                <h1 class="card-text" id="valorPassos">6000</h1>
-                <h1 class="card-body-sub">Passos</h1>
-            </a>
-            <img src="../../images/userResumo/passos-img.svg" alt="Passos" height="600px">
+        <div class="card">
+            <h1 id="valorPassos"></h1>
+            <h2>Passos</h2>
+            <img src="/images/userResumo/passos-img.svg" alt="">
         </div>
-    </div>
-
-    <div class="shadow-sm card w-100" style="margin-top: 10px;">
-        <div class="card-body">
-            <a href="userAltura.html">
-                <h1 class="card-text text-right">Altura</h1>
-                <h1 class="card-body-sub" id="valorAltura"></h1>
-            </a>
+        <div class="card" onclick="goToPeso()">
+            <h1 id="valorPeso"></h1>
+            <h2>Peso</h2>
         </div>
-    </div>
-    <div class="shadow-sm card w-100" style="margin-top: 10px;">
-        <div class="card-body">
-            <a href="userPeso.html">
-                <h1 class="card-text">Peso</h1>
-                <h1 class="card-body-sub" id="valorPeso"></h1>
-            </a>
+        <div class="card">
+            <h1 id="valorAltura" onclick="goToAltura()"></h1>
+            <h2>Altura</h2>
         </div>
-    </div>
-    <div class="shadow-sm card w-100" style="margin-top: 10px; font-size: 3rem;">
-        <a href="userEsportes.html"><button type="button" class="btn btn-success btn-block">Esportes</button></a>
-    </div>
+        <div class="card" id="card-button">
+            <button>Esportes</button>
+        </div>
     </div>
 
     <script src="../../src/resumo.js"></script>

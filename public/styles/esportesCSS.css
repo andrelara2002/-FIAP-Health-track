@@ -4,7 +4,18 @@
     font-size: 3rem;
     text-align: right;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
 
+    margin: 2rem 2rem;
+}
+.header img{
+    width: 2rem;
+}
+#header-logo{
+    width: 8rem;
+}
 .card-text{
     text-align: center;
 }
@@ -17,12 +28,7 @@
 
 .card{
     border-radius: 20px;
-}
-
-.svg{
-    margin-top: 10px;
-    margin-left: 45%;
-    margin-right: 50%;
+    padding: 2rem 2rem;
 }
 
 .btn-success{
